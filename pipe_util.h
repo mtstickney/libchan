@@ -10,6 +10,3 @@ typedef struct pipe {
 int mk_pipe(Pipe *p);
 
 void close_pipe(Pipe *p);
-
-pid_t begin(const char *path, char *const args[], Channel *c);
-
